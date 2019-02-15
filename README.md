@@ -1,6 +1,14 @@
+## PayPal Checkout Integration with React Example
+
 This PayPal Checkout integration uses the PayPal JavaScript SDK released in February 2019.
 
+### First Steps
+
 Before developing code, make sure you get PayPal REST API credentials from the [Developer Portal](https://developer.paypal.com/).
+
+In the file PaypalButton.js, replace 'YOUR_CLIENT_ID' with your REST API credentials. See [the documentation for customizing the SDK](https://developer.paypal.com/docs/checkout/reference/customize-sdk/) for a complete list of query parameters and values.
+
+## Running the Project
 
 ### Setting Up the Project for the First Time
 
